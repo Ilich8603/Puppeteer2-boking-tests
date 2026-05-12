@@ -1,0 +1,17 @@
+{
+  "name": "booking-tests",
+  "version": "1.0.0",
+  "description": "Puppeteer тесты для бронирования билетов",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand ",
+    "test:watch": "jest --watch --detectOpenHandles"
+  },
+  "author": "dremin",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.2.0",
+    "puppeteer": "^13.3.2"
+  }
+}
